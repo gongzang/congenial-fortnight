@@ -8,12 +8,13 @@ import { NotePage } from '../note/note';
 })
 export class HomePage {
 
-  constructor(public appCtrl: App) {
+  constructor(public modalCtrl: ModalController) {
 
   }
 
   showNoteDetail():void {
-    this.appCtrl.getRootNav().setRoot(NotePage);
+      let modal = this.modalCtrl.create(NotePage);
+      modal.present();
   }
 
 }

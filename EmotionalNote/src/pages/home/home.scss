@@ -1,2 +1,27 @@
 page-home {
+    [en-timeLine]{
+        border-left: 5px solid #ccc;
+        [en-timeLine-title]{
+            
+            color:#ccc;
+        }
+        [en-timeLine-card]{
+            p{
+                color:#fff;
+            }
+            color:#fff;
+        }
+        [color1]{
+            ion-item{
+                background: none;
+            }
+            background-color: rgba($color: #EB5090, $alpha: 1);
+        }
+        [color2]{
+            ion-item{
+                background: none;
+            }
+            background-color: rgba($color: #F3B501, $alpha: 1);
+        }
+    }
 }
